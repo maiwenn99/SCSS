@@ -1,10 +1,92 @@
+@font-face {
+    font-family: Aniron;
+    src: url("font/aniron.regular.ttf");
+}
+
+@font-face {
+    font-family: partyB;
+    src: url("font/partybusiness.ttf");
+}
+
+@font-face {
+    font-family: casseCouille;
+    src: url("font/tngan.ttf");
+}
+
+body {
+    background-image: url("img/bg_light.png");
+    color:black;
+    font-family: partyB;
+    font-size: 20px;
+}
+
+.realFooter {
+    background-color: #ff5f01;
+    color: white;
+    text-align: center;
+}
+
+li {
+    color: #ff5f01;
+}
 
 
-.cssPrepro {
+
+
+.couille {
+    color: black;
+}
+
+#reward {
+
+
+    margin-right: 7vw;
+
+}
+
+
+h1 {
+    font-family: Aniron;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Aniron;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:450px ) {
+    h1 {
+        display: none;
+    }
+    h2{
+        font-size: 20px;
+    }
+    body {
+        font-size: 15px;
+    }
+
+}
+
+.navPolice {
+    font-family: casseCouille;
+    color: #ff5f01;
+}
+
+.navPolice2 {
+    color: #ff5f01;
+}
+
+
+
+
+.scss {
     height: 700px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .ring1 {
@@ -27,7 +109,7 @@
     align-items: center;
 }
 
-.annMyP {
+.anneauP {
     border: 8px solid orange;
     box-shadow: 3px 3px 5px #0a0a0a;
     height: 80px;
@@ -35,7 +117,7 @@
     border-radius: 50%;
 }
 
-.annTheOR {
+.anneauOr {
     border: 10px solid yellow;
     box-shadow: 8px 8px 5px #0a0a0a;
     height: 150px;
@@ -43,7 +125,7 @@
     border-radius: 50%;
 }
 
-.annPlease-1 {
+.anneau1 {
     border: 5px solid #515050;
     box-shadow: 2px 2px 5px #0a0a0a;
     height: 20px;
@@ -52,7 +134,7 @@
     margin-left: -5px;
 }
 
-.annPlease-2 {
+.anneau2 {
     border: 5px solid #515050;
     box-shadow: 2px 2px 5px #0a0a0a;
     height: 40px;
@@ -61,7 +143,7 @@
     margin-left: -10px;
 }
 
-.annPlease-3 {
+.anneau3 {
     border: 5px solid #515050;
     box-shadow: 2px 2px 5px #0a0a0a;
     height: 60px;
@@ -70,7 +152,7 @@
     margin-left: -15px;
 }
 
-.annPlease-4 {
+.anneau4 {
     border: 5px solid #515050;
     box-shadow: 2px 2px 5px #0a0a0a;
     height: 80px;
@@ -79,7 +161,7 @@
     margin-left: -20px;
 }
 
-.annPlease-5 {
+.anneau5 {
     border: 5px solid #515050;
     box-shadow: 2px 2px 5px #0a0a0a;
     height: 100px;
@@ -88,7 +170,7 @@
     margin-left: -25px;
 }
 
-.annPlease-6 {
+.anneau6 {
     border: 5px solid #515050;
     box-shadow: 2px 2px 5px #0a0a0a;
     height: 120px;
