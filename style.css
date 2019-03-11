@@ -1,20 +1,20 @@
 @font-face {
     font-family: Aniron;
-    src: url("aniron.regular.ttf");
+    src: url("./aniron.regular.ttf");
 }
 
 @font-face {
     font-family: partyB;
-    src: url("partybusiness.ttf");
+    src: url("./partybusiness.ttf");
 }
 
 @font-face {
     font-family: casseCouille;
-    src: url("tngan.ttf");
+    src: url("./tngan.ttf");
 }
 
 body {
-    background-image: url("./bg_light.png");
+    background-image: url("/bg_light.png");
     color:black;
     font-family: partyB;
     font-size: 20px;
