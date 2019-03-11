@@ -2,8 +2,6 @@ $yellow : yellow;
 $orange : orange;
 $grey : #515050;
 
-
-
 @mixin ring ($color, $size, $sizeBor, $sizeSha) {
   border: $sizeBor solid $color;
   box-shadow: $sizeSha $sizeSha 5px rgb(10, 10, 10);
@@ -12,16 +10,16 @@ $grey : #515050;
   border-radius: 50%;
 }
 
-.annMyP {
+.anneauP {
   @include ring(orange, 80px, 8px, 3px)
 }
 
-.annTheOR {
+.anneauOr {
   @include ring(yellow, 150px, 10px, 8px)
 }
 
 @for $i from 1 through 6 {
-  .annPlease-#{$i} {
+  .anneau-#{$i} {
     @include ring (#515050, 20px$i, 5px, 2px);
     margin-left: -5px$i;
 }
