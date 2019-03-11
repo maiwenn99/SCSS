@@ -1,0 +1,98 @@
+
+
+.cssPrepro {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ring1 {
+    padding-top: 30px;
+    height: 100px;
+    display: flex;
+}
+
+.ring2 {
+    padding-top: 70px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.ring3 {
+    padding-top: 100px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.annMyP {
+    border: 8px solid orange;
+    box-shadow: 3px 3px 5px #0a0a0a;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.annTheOR {
+    border: 10px solid yellow;
+    box-shadow: 8px 8px 5px #0a0a0a;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.annPlease-1 {
+    border: 5px solid #515050;
+    box-shadow: 2px 2px 5px #0a0a0a;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.annPlease-2 {
+    border: 5px solid #515050;
+    box-shadow: 2px 2px 5px #0a0a0a;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.annPlease-3 {
+    border: 5px solid #515050;
+    box-shadow: 2px 2px 5px #0a0a0a;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+
+.annPlease-4 {
+    border: 5px solid #515050;
+    box-shadow: 2px 2px 5px #0a0a0a;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.annPlease-5 {
+    border: 5px solid #515050;
+    box-shadow: 2px 2px 5px #0a0a0a;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: -25px;
+}
+
+.annPlease-6 {
+    border: 5px solid #515050;
+    box-shadow: 2px 2px 5px #0a0a0a;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: -30px;
+}
